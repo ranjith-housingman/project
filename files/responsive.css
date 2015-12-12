@@ -1,0 +1,364 @@
+/* #1.0 HomePage
+================================================== */
+@media (min-width: 992px) and (max-width: 1199px) {
+.home-banner figure img{ width:100%; height:470px }	
+.signup-box article{ width:90%;}
+.whyus div[class^="col"]{padding-left:15px; padding-right:15px;}
+}
+
+/*Banner*/
+@media (min-width: 768px) and (max-width: 991px) {
+.home-banner figure img{ width:100%; height:470px }	
+.signup-box article{ width:100%;}
+.home-banner h1{ font-size:30px; letter-spacing:7px}
+
+.whyus h2{ font-size:30px}
+.whyus h3{ font-size:20px}
+.whyus p{ font-size:14px; line-height:22px}
+.whyus div[class^="col"]{padding-left:15px; padding-right:15px;}
+
+footer article ul {
+	width:100%;
+	text-align:center;
+	padding-bottom:20px
+}
+footer article ul li {
+	float: none !important;
+	display:inline-block;
+	padding: 0 10px;
+}
+}
+
+@media screen and (max-width: 767px) {
+header .brand1{ margin:11px 0 0 16px !important}
+header .brand2{ margin:11px 0 0 16px !important}
+header .animated-arrow {
+	padding: 10px 26px 16px 0px;
+	margin: 15px 0 0 18px;
+}
+
+.home-banner .banner_mble{ display:block;}
+.home-banner figure img{ width:100%;}	
+.home-banner .banner_mble img{ height:320px}
+.home-banner h1{ font-size:35px; text-align:center; letter-spacing:0}
+
+.signup-box article{ width:100%;}
+.signup-box .btn{ margin-top:0}
+.sub-nav li.hide{ display:block !important}
+.sub-nav{ padding:10px 30px 30px 0}
+.sub-nav.in { padding:0 30px 10px 20px}
+
+.whyus div[class^="col"]{ padding:0}
+
+footer article ul {
+	width:100%;
+	text-align:center;
+	padding-bottom:20px
+}
+footer article ul li {
+	float: none !important;
+	display:inline-block;
+	padding: 0 10px;
+}
+
+footer article p.follow {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+}
+
+@media screen and (max-width: 479px) {
+.home-banner h1{ font-size:26px; text-align:center; letter-spacing:0}
+.home-banner .banner_mble img{ height:auto}
+.whyus h2{ font-size:30px}
+.whyus h3{ font-size:20px}
+.whyus p{ font-size:14px; line-height:22px}
+
+}
+
+/* #1.0 Friends Page
+================================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+.friends-section article figure img{ width:350px}
+}
+
+@media screen and (max-width: 767px) {
+.friends-section .top{ width:100%; float:left; text-align:center}
+.friends-section .top img{ width:280px; float:none}
+.friends-section p{ padding:60px 0 5px 0}
+
+.friends-section article h3 { font-size: 30px; padding:0 0 30px 0}
+.friends-section article h4 { font-size: 20px;}
+.friends-section article .btn{ width: 180px}
+.friends-section article figure img{ width:300px}
+}
+
+/* #4.0 Product Listing page
+================================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+.product-list article figure{ width:30%}
+.product-list article figure img{ width:30%; height:100%; position:absolute; top:0; left:0}
+.product-list article aside{ width:70%; padding:20px 20px 10px 20px}
+.product-list article .btns{ bottom:12px; right:20px}
+
+}
+
+@media screen and (max-width: 767px) {
+.product-list article figure{ width:100%}
+.product-list article aside{ width:100%; padding:10px; position:relative}
+.product-list article .left{ width:100%}
+.product-list article .right{ width:100%}
+.product-list article .right h2{ float:left; padding:16px 0 0 0}
+.product-list article .right h3{ float:left; font-size:16px; padding:0 0 6px 0}
+.product-list article .right h2.rate{ font-size:13px; float:right; padding:0; margin:0; position:absolute; top:76px; right:2px}
+.product-list article h1{ font-size:21px; position:relative; padding:0 0 6px 0}
+.product-list article h1 a{ position:absolute; bottom:-20px; right:-5px; font-size:9px; width:80px; height:20px; line-height:20px; border-radius:55px; margin:0 0 0 15px}
+.product-list article p{ font-size:13px; padding:0 0 5px 0 }
+.product-list article p.txt1{ padding:0 0 10px 24px}
+.product-list article p.txt2{ font-size:12px; padding:0 80px 20px 0}
+.product-list article p.mark{  padding:2px 0 10px 24px }
+.product-list article h2{ text-align:left; font-size:16px; line-height:1em; margin:0; color:#000; padding:0; font-weight:700}
+.product-list article h2 span{ font-size:13px; color:#727272}
+.product-list article h3{ text-align:left; margin:0; font-size:23px; font-weight:200; padding:0 0 26px 0}
+.product-list article h3 span{ font-size:37px; color:#b11512; font-weight:300; letter-spacing:-3px;}
+.product-list article .btns{ width:100%; float:left; text-align:center; position:relative; bottom:0; right:0}
+.product-list article .btns .btn-info{ margin-left:10px}
+}
+
+/* # Deal Page
+================================================== */
+@media (min-width: 1024px) and (max-width: 1199px) {
+.deal-block .right-col{ padding:30px 20px;}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.deal-sec{ padding:40px 0}
+
+.deal-block .left-col{ width:100%; background:#eaeaea}
+.deal-block .right-col{ width:100%}
+.deal-block .bg-left{ display:none}
+}
+
+@media (max-width: 767px) {
+.red-bar { padding:20px 0}
+
+.red-bar h2{ font-size:25px}
+.red-bar h2 i{ font-size:20px}
+.red-bar p{ font-size:14px}
+.red-bar .icon{ width:35px; margin-right:-35px}
+.red-bar .txt{ width:100%; float:left; padding-left:50px}
+.red-bar aside{ width:100%; padding-bottom:15px}
+.red-bar aside:last-child{ width:100%; text-align:left; padding:0 0 0 45px}
+
+
+.deal-sec{ padding:40px 0}
+
+.deal-block .left-col{ width:100%; background:#eaeaea}
+.deal-block .right-col{ width:100%; padding:30px 4%}
+.deal-block .right-col h2{ font-size:24px}
+.deal-block .right-col h2 .txt-small{ font-size:10px}
+.deal-block .right-col h3{ font-size:40px; margin:0; padding:0}
+.deal-block .right-col h3 i{ font-size:20px; color:#999}
+.deal-block .right-col h3 span{ font-size:20px}
+.deal-block .right-col h4{ font-size:26px}
+.deal-block .right-col h4 i{ font-size:16px}
+.deal-block .right-col h4 .txt-small{ font-size:16px}
+.deal-block .right-col h5{ font-size:18px}
+.deal-block .right-col ul li{ width:50%}
+
+.deal-block .right-col aside .left{ width:100%}
+.deal-block .right-col aside .right{ width:100%}
+.deal-block .right-col aside:first-child .left{ width:100%; text-align:center}
+.deal-block .right-col aside:first-child .right{ width:100%; text-align:center; margin:0}
+.deal-block .bg-left{ display:none}
+}
+
+
+/* # Deal Page
+==================================================
+@media (max-width: 767px) {
+.header{ padding:70px 0 0 0; position:relative}
+.header .logo{ float:left; padding:0}
+.header .logo img{ border-radius: 100%;}
+.header .info{ float:left; padding:0 0 0 12px; margin:0}
+.header .info h1{ font-size:24px; color:#FFF; font-weight:300; line-height:1em; letter-spacing:-1px; padding:0 0 8px 0; margin:0}
+.header .info h1 span{ font-weight:700}
+.header .info p{ font-size:14px; color:#FFF; padding:0; margin:0}
+
+.header .txt{ float:left; font-size:14px; font-weight:300; color:#FFF; padding:10px 0 0 0}
+.header .right{ float:left; padding:0}
+.header .right h1{ font-size:30px; color:#FFF; word-spacing:-1px; font-weight:700; margin:0; padding:0}
+.header .right h1 small{ font-size:24px; color:#FFF; font-weight:400}
+.header .right h1 i{ font-size:28px; color:#000}
+.header .right p{ font-size:15px; text-align:left; margin:0; color:#FFF; padding:8px 0 0 0}
+
+.fixed-bar ul{ font-size:13px; color:#FFF; margin:0; list-style:none; padding:0}
+
+.deal-section h2{ font-size:25px; color:#9b9b9b; font-weight:700; text-align:left; margin:13px 0 0 25px}
+
+
+.overview-section-bg{ width:100%; float:left; background:#f4f4f4; padding:0 0 30px 0}
+.overview-section{ width:100%; float:left; background:#FFF; padding:25px}
+.overview-section h2{ color:#9b9b9b; font-size:25px; font-weight:700}
+.overview-section h4{ font-size:16px; color:#333; text-align:center; margin:0; padding:0 0 15px 0}
+.overview-section h3{ font-size:16px; font-weight:500; color:#000; padding:0; margin:0}
+.overview-section p{ font-size:13px; color:#000; font-weight:300; padding:0; text-align:justify; line-height:30px; padding:0 0 12px 0}
+.overview-section table .fa-circle{ font-size:10px; color:green; margin:0 4px 0 0;}
+.overview-section table { font-size:12px; border:none;}
+.overview-section table tr{ width:50% !important; color:#999; float:left; border:none}
+.overview-section table tr td{ width:100% !important; float:left}
+.overview-section ul li span.right img{ border-radius: 100%}
+}
+ */
+
+/* #We are hiring
+================================================== */
+@media (min-width: 768px) and (max-width: 1023px) {
+.home-banner.parralex{ height:480px}
+.home-banner.parralex .down-arrow{ bottom:30px}
+
+.home-banner.parralex .info-box.left h3{ line-height:25px; padding:0 30% 0 5%}
+.home-banner.parralex p{ font-size:38px}
+.home-banner.parralex .info-box.right h3{ padding:0 5% 0 30%}
+.aboutus figure{ width:100%; float:left; text-align:center; margin:20px 0 0 0}
+}
+
+@media (max-width: 767px) {
+.home-banner p{ font-size:35px}
+.home-banner.parralex{ height:320px}
+.home-banner.parralex .down-arrow{ bottom:20px}
+.home-banner.parralex .info-box.right .display-cell{ text-align:center}
+.home-banner.parralex p{ font-size:28px}
+.home-banner.parralex .info-box.left h3{ text-align:center;  padding:0 5%}
+.home-banner.parralex .info-box.right h3{ text-align:center; padding:0 5%}
+.home-banner.parralex h1{ font-size:30px !important; padding:0 !important; margin:0 !important;}
+.aboutus figure{ margin:10px 0 0 0}
+}
+
+@media screen and (max-width: 479px) {
+.home-banner.parralex{ height:480px}
+.home-banner p{ font-size:28px}
+.home-banner.parralex p{ font-size:24px}
+.home-banner.parralex h1{ font-size:26px !important;}
+}
+
+/* #About Us
+================================================== */
+@media (max-width: 767px) {
+.contact-us aside { padding:30px 0 0 0}
+}
+
+@media screen and (max-width: 479px) {
+.contact-us .btn-deal{ width:100%}
+}
+
+/* #New Product List
+================================================== */
+@media (min-width: 1024px) and (max-width: 1199px) {
+.product-box1 figure{ width:30%}
+.product-box1 figure img{ width:30%; height:100%; position:absolute; top:0; left:0}
+.product-box1 aside{ width:70%; padding:20px 20px 10px 20px}
+.product-box1 .left{ width:300px}
+.product-box1 .btns{ bottom:8px; right:15px}
+.product-box1 .btns .btn{ padding:3px 10px}
+.product-box1 .btns .btn-info span{ top:-12px}
+.product-box1 .rate{ font-size:21px}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.product-box1 figure{ width:30%}
+.product-box1 figure img{ width:30%; height:100%; position:absolute; top:0; left:0}
+.product-box1 aside{ width:70%; padding:20px 20px 10px 20px}
+.product-box1 .btns{ bottom:8px; right:15px}
+.product-box1 .btns .btn{ padding:3px 10px}
+.product-box1 .btns .btn-info span{ top:-12px}
+.product-box1 .rate{ font-size:21px}
+}
+
+@media screen and (max-width: 767px) {
+.product-box1 figure{ width:100%}
+.product-box1 aside{ width:100%; padding:10px; position:relative}
+.product-box1 .left{ width:100%}
+.product-box1 .right{ width:100%}
+.product-box1 .right h2{ float:left; padding:16px 0 0 0}
+.product-box1 .right h3{ float:left; font-size:16px; padding:0 0 6px 0}
+.product-box1 .right h2.rate{ font-size:13px; float:right; padding:0; margin:0; position:absolute; top:40px; right:15px}
+.product-box1 h1{ font-size:21px; padding:0 0 6px 0}
+.product-box1 h1 a{ position:absolute; top:-205%; right:8px; font-size:9px; width:70px; height:20px; line-height:20px; border-radius:55px; margin:0}
+.product-box1 p{ font-size:13px; padding:0 0 5px 0 }
+.product-box1 p.txt1{ padding:0 0 10px 24px}
+.product-box1 p.txt2{ font-size:12px; padding:0 80px 20px 0}
+.product-box1 p.mark{  padding:2px 0 10px 24px }
+.product-box1 h2{ text-align:left; font-size:16px; line-height:1em; margin:0; color:#000; padding:0; font-weight:700}
+.product-box1 h2 span{ font-size:13px; color:#727272}
+.product-box1 h3{ text-align:left; margin:0; font-size:23px; font-weight:200; padding:0 0 26px 0}
+.product-box1 h3 span{ font-size:37px; color:#b11512; font-weight:300; letter-spacing:-3px;}
+.product-box1 .btns{ width:100%; float:left; text-align:center; position:relative; bottom:0; right:0}
+.product-box1 .btns .btn-info{ margin-left:10px}
+}
+
+@media screen and (max-width: 479px) {
+.product-box1 h1 a{ top:-130%}
+.product-box1 .btns .btn{ padding:4px 18px}
+}
+
+
+/* #2D & 3D modal
+================================================== */
+@media screen and (max-width: 767px) {
+.modal-3d .modal-dialog {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.modal-3d h2{ font-size:18px; color:#FFF}
+.modal-3d h3{ font-size:14px;}
+.modal-3d .modal-header .close{ top:17px}
+}
+
+/* #Search Box
+================================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+.search-box{ width:580px}
+}
+
+@media screen and (max-width: 767px) {
+.search-box{ width:100%; float:left; padding:0 15px}
+}
+
+@media screen and (max-width: 479px) {
+.search-box article{ width:100%; float:left; padding:0 80px 0 0}
+.search-box .btn{ width:80px !important; height:40px; line-height:38px; font-size:14px; margin:0 0 0 -80px; position:relative}
+.search-box .form-control{ height:40px; font-size:14px}
+}
+
+/* #Filter Bar
+================================================== */
+@media (min-width: 1024px) and (max-width: 1199px) {
+.filter-bar{ padding:0 45px}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.filter-bar{ padding:0 25px}
+}
+
+@media screen and (max-width: 767px) {
+.filter-bar{ padding:0 15px; top:auto; bottom:0}
+.filter-bar p{ padding-right:15px; display:none}
+.filter-bar p span{ display:none}
+
+.filter-bar article .link{ width:100px; height:40px; float:left; color:#FFF; line-height:40px; border-right:1px solid transparent; font-size:14px; padding:0 15px}
+.filter-bar article .link.link2{ width:80px}
+.filter-bar article .link.link3{ width:110px}
+.filter-bar article .link.link4{ width:80px; text-align:center; padding:0}
+.filter-bar article aside{ width:290px}
+.filter-bar article aside ul{ width:100%; height:160px; float:left; margin:0; list-style:none; padding:0}
+.filter-bar article aside ul li{ padding:2px 8px}
+.filter-bar article aside ul.budget{ width:100px}
+.filter-bar article aside ul.bhk{ width:80px}
+.filter-bar article aside ul.discount{ width:110px}
+
+.filter-bar article aside{ position:absolute; top:auto; bottom:40px; left:0}
+}
